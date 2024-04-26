@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "piyush";
+    src: url(./LoveDays-2v7Oe.ttf);
+}
+h1{
+    font-family: piyush;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 6px #ff0000; 
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px 10px rgb(71, 125, 150);
+}
+img:hover{
+    box-shadow: 0 0 20px 10px rgb(3, 86, 125);
+}
+h2{
+    text-align: justify;
+}
+div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+

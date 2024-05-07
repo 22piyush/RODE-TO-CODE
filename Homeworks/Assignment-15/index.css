@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 20vh;
+}
+.card{
+    background-color: brown;
+    height: 50vh;
+    width: 20vw;
+    display: inline-block;
+    margin-left: 50px;
+    
+}

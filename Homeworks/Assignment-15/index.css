@@ -2,19 +2,37 @@
     margin: 0;
     padding: 0;
 }
-.main{
-    background-color: aqua;
-    height: 100vh;
-    width: 100vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 20vh;
-}
-.card{
-    background-color: brown;
-    height: 50vh;
-    width: 20vw;
+
+.box{
+     
+    margin-top: 20vh;
+    margin-left: 6vw;
+    height: 60vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 30px;
     display: inline-block;
-    margin-left: 50px;
+}
+.card1 img{
+    width: 23vw;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+button{
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: none;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+}
+.card1{
     
 }

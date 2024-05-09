@@ -13,7 +13,7 @@
     border-radius: 30px;
     display: inline-block;
 }
-.card1 img{
+.box img{
     width: 23vw;
     height: 30vh;
     margin-left: 20px;
@@ -24,15 +24,17 @@
 }
 button{
     border: none;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 30px;
-    font-size: large;
+    font-size: larger;
     margin-top: 20px;
     margin-left: 20px;
     background: none;
     color: palevioletred;
-    border: 1px solid palevioletred;
+    border: 3px solid palevioletred;
 }
-.card1{
-    
+h3{
+    text-align: justify;
+    padding: 20px;
+    margin-top: 10px;
 }

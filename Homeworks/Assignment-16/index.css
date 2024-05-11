@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: aqua;
+    padding: 40px;
+    position: sticky;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-size: x-large;
+    font-weight: 800;   
+    position: sticky;
+}
+a{
+    text-decoration: none;
+}
+.line{
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    position: absolute;
+    left: 824px;
+    margin-top: 26px;
+
+}
+.box{
+    height: 120vh;
+    width: 50vw;
+    background-color: red;
+}

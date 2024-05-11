@@ -1,6 +1,6 @@
 .calculator-body{
-    height: 300px;
-    width: 250px;
+    height: 55vh;
+    width: 22vw;
     background-color: #3D3D5C;
     margin: 20px auto;
     border-radius: 10px;
@@ -10,11 +10,11 @@
 .screen{
     background-color: #a1af77;
     text-align: right;
-    width: 220px;
+    width: 20vw;
     display: block;
     margin: 0 auto;
-    font-size: 25px;
-    padding: 5px 10px;
+    font-size: 30px;
+    padding: 12px 10px;
     margin-bottom: 20px;
 }
 .btn{
@@ -22,10 +22,13 @@
     padding: 2px 0;
     text-align: center;
     font-size: 20px;
+    margin: 5px;
+    
 }
 .button-container{
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 300px;
     flex-wrap: wrap;
+    background-color: antiquewhite;
 }

@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 #navbar{
-    background-color: aqua;
+    background-color: #4B371C;
     padding: 40px;
     position: sticky;
     top: 0px;
     width: 100%;
+   color: white;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 ul{
@@ -22,11 +23,14 @@ ul{
 }
 a{
     text-decoration: none;
+    color: white;
+    padding-bottom:20px;
+    
 }
 .line{
     height: 2px;
     width: 70px;
-    background-color: black;
+    background-color: blue;
     position: absolute;
     left: 812px;
     margin-top: 26px;
@@ -45,4 +49,30 @@ a{
 }
 .box{
     height: 120vh;
+}
+.shop-cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card1{
+    background-color: brown;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgb(192, 186, 186);
+}
+.card1 img{
+    width: 100%;
+    border-radius: 20px;
+    
+ 
+}
+.heading{
+    text-align: center;
+    font-weight: 600;
+    margin: 60px;
+    font-size: xx-large;
+
+
 }

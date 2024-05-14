@@ -1,0 +1,35 @@
+body{
+    background-color: #eeeee4;
+}
+.brand-logo{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.brand-title{
+    text-align: center;
+}
+.receipt-container{
+    width: 80%;
+    border: 1px solid gray; 
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.2);
+}
+.brand-address{
+    text-align: right;
+}
+.brand-mobile{
+    text-align: right;
+
+}
+.receipt-header{
+    border-bottom: 1px dashed gray;
+}
+.receipt-title{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+}

@@ -37,6 +37,15 @@ body{
     flex-wrap: wrap;
 }
 
+/* Small Devices */
+@media screen and (max-width: 600px) 
+{
+    .card-description{
+       display: none;
+    }
+
+}
+
 /* Normal Devices */
 @media screen and (min-width: 601px) and (max-width: 768px) 
 {

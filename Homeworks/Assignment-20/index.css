@@ -55,22 +55,13 @@ a{
 
 @media screen and (max-width: 600px) {
     
-    .media-nav{
-        
-        
-    }
+  
     .media-container{
-    
-
         position: absolute;
         bottom: 0px;
         display: block;
         width: 100%;
         background-color: aqua;
-    
-    }
-    .media-items{
-    
     
     }
     ul{

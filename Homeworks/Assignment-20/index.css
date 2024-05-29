@@ -73,9 +73,21 @@ a{
     
     
     }
+    ul{
+        display: flex;
+        justify-content:space-between;
+        padding: 20px;
+    }
+    img{
+        height: 35px;
+    }
+    li{
+        list-style: none;
+    }
     .nav-container{
         display: none;
     }
+
 
     
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="M()">
+    <input type="text" onkeyup="A()" onkeydown="B()" onkeypress="C()" onchange="K()">
+
+    <script>
+        function A(){
+            console.log("Key Up");
+        }
+        function B(){
+            console.log("Key Down");
+        }
+        function C(){
+            console.log("Key Press");
+        }
+
+        function K(){
+            console.log("Change is occured");
+        }
+        function M(){
+            console.log("Page is loaded");
+        }
+    </script>
+</body>
+</html>

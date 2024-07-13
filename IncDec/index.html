@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container{
+            border: 1px solid black;
+            padding: 10px;
+            width: fit-content;
+            border-radius: 5px;
+            padding-bottom: 30px;
+            margin: 130px auto;
+            background-color: rgb(241, 244, 244);
+        }
+        h3{
+            text-align: center;
+            
+        }
+        .image1{
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .content{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             gap: 30px;
+             margin-top: 30px;
+             
+        }
+        .incdec{
+            height: 30px;
+            cursor: pointer;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            background-color: orangered;
+            border: none;
+            color: aliceblue;
+            padding: 10px 20px;
+            border-radius: 2px;
+            cursor: pointer;
+            
+        }
+        span{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ868djAR5mIlAFnnjF---4paarCg48aQTr-g&s" alt="" class="image1">
+        <h3>Apple : 80rs kg</h3>
+
+        <div class="content">
+
+            <img src="add.png" alt="" class="incdec" onclick="IncDec('inc')"> 
+           
+            <span id="counter">1</span>
+            
+            <img src="minus.png" alt="" class="incdec" onclick="IncDec('dec')">
+
+        </div>
+        <button>Buy Now</button>
+    </div>
+
+    <script>
+        function IncDec(action){
+
+            const value = document.getElementById("counter")
+
+            let quantity = parseInt(value.innerText)
+
+            if(quantity==1 && action=='dec'){
+                alert('Quantity cannot be less than 1')
+                return
+            }
+            else if(quantity==5 && action=='inc'){
+                alert('Quantity Cannot be greater than 5')
+                return
+            }
+
+            value.innerText = action=='inc' ? ++quantity : --quantity
+
+
+
+        }
+    </script>
+</body>
+</html>

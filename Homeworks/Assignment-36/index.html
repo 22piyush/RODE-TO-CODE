@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="value" placeholder="Enter Name">
+    <button id="submit" onclick="Submit()">Submit</button>
+    <p id="greeting"></p>
+
+
+
+    <script>
+
+        const nameElement = document.getElementById("value");
+        const greetingElement = document.getElementById('greeting');
+        const btn = document.getElementById('save');
+
+         function Submit() {
+
+            if(!nameElement.value){
+                alert("plz enter message");
+                return;
+            }
+
+            localStorage.setItem('name' , nameElement.value);
+            greetingElement.innerText = `Hello ${nameElement.value} `
+
+            btn.style.display = "none";
+            nameElement.style.display = "name";
+            
+         }
+         const userName = localStorage.getItem('name');
+
+         if(userName){
+            greetingElement.innerText = `hello ${userName}`;
+            btn.style.display = "none";
+            nameElement.style.display = "name";
+
+
+         }
+    </script>
+</body>
+</html>
